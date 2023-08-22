@@ -1,0 +1,28 @@
+.fishList {
+    display: flex;
+    justify-content: space-evenly;
+    float: left;
+    
+}
+
+.fishCard {
+    margin: 0em;
+    flex-basis: 25%;
+    text-align: center;
+    
+}
+
+.fish__image {
+    width: 200px;
+    height: 200px;
+}
+
+.navBar {
+    font-size: 20px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.fish__name {
+    font-size: larger;
+}
+
