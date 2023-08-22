@@ -27,7 +27,8 @@ export const mostHolyFish = () => {
 
     for (fish of holyFish) {
         if(fish.length % 3 === 0){
-            console.log(fish.length)
+            console.log(fish)
+            holyFish.push(fish)
         }
     }
 
@@ -39,7 +40,7 @@ export const mostSoldierFish = () => {
     const soldierFish = []
     for (const fish of soldierFish) {
         if(fish.length % 5 === 0)
-        console.log(fish.length)
+        console.log(fish)
         
     }
    
@@ -53,7 +54,7 @@ export const nonHolyFish = () => {
     const regularFish = []
     for (const fish of regularFish) {
         if(fish.length % 2 === 0)
-        console.log(fish.length)
+        console.log(fish)
     }
     return regularFish
 }
